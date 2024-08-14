@@ -22,7 +22,7 @@ export function NavBar() {
                     </SheetTrigger>
                     <SheetContent side="left">
                         <SheetHeader>
-                            <SheetTitle>fabrika.</SheetTitle>
+                            <SheetTitle>Giant Raccoon</SheetTitle>
                             <SheetDescription>
                                 Scale and launch products with expert developers, on-demand, at a flat monthly fee
                             </SheetDescription>
@@ -35,7 +35,7 @@ export function NavBar() {
                             </DialogClose>
                             <DialogClose asChild>
                                 <Link href="/software">
-                                    <Button variant="outline" className="w-full">Software</Button>
+                                    <Button variant="outline" className="w-full">Why Is It So Big?</Button>
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
@@ -60,22 +60,22 @@ export function NavBar() {
                 <NavigationMenu>
                     <NavigationMenuList className="max-[825px]:hidden ">
                         <Link href="/" className="pl-2">
-                            <h1 className="font-bold">fabrika.</h1>
+                            <h1 className="font-bold">Giant Raccoon</h1>
                         </Link>
                     </NavigationMenuList>
                 </NavigationMenu>
                 <div className="flex items-center gap-2 max-[825px]:hidden">
                     <Link href="/software">
-                        <Button variant="ghost">Software</Button>
+                        <Button variant="ghost">Why Is It So Big?</Button>
                     </Link>
                     <Link href="/automation">
-                        <Button variant="ghost">Automation</Button>
+                        <Button variant="ghost">Mmm Trash</Button>
                     </Link>
                     <Link href="/blog">
-                        <Button variant="ghost">Blog</Button>
+                        <Button variant="ghost">So Fluffy</Button>
                     </Link>
                     <Link href="/projects">
-                        <Button variant="ghost">Projects</Button>
+                        <Button variant="ghost">Grubby Lil' Paws</Button>
                     </Link>
                     <ModeToggle />
                 </div>
