@@ -75,7 +75,7 @@ export function NavBar() {
                         <Button variant="ghost">So Fluffy</Button>
                     </Link>
                     <Link href="/projects">
-                        <Button variant="ghost">Grubby Lil' Paws</Button>
+                        <Button variant="ghost">Grubby Lil Paws</Button>
                     </Link>
                     <ModeToggle />
                 </div>
